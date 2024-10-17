@@ -1,0 +1,62 @@
+html{
+    text-align: center;
+}
+
+
+header{
+    display: inline-flex;
+}
+
+h1{
+    margin-right: 350px;
+    margin-left: 200px;
+}
+
+.container{
+    display: flex;
+    margin: 17px;
+}
+
+.card{
+    width: 100%;
+    margin: 10px;
+    border-radius: 27px;
+    background-color: #69b869;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 2);
+    transform: translate(-3%);
+}
+
+
+
+.logo{
+    width: 75x;
+    height: 75px;
+    background: url(IMG/LOGO.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(0px 7px 21px #01e701);
+    animation: rotar 5s linear infinite;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+@keyframes rotar{
+    from{
+        transform: rotateY(180deg);
+    }
+    to{
+        transform: rotateY(-180deg);
+    }
+}
+
+button{
+    background-color: hsl(268, 85%, 69%);
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
